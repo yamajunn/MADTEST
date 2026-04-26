@@ -53,6 +53,6 @@ def print_chunks_info(chunks):
         print('-' * 40)
 
 # PNGファイルを読み取り、チャンク情報を表示する
-filename = 'output.png'
+filename = "inputs/cat2.png"
 chunks = read_png_chunks(filename)
 print_chunks_info(chunks)

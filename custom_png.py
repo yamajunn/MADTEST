@@ -3,9 +3,9 @@ import zlib
 
 # PNGヘッダ
 png_header = b'\x89PNG\r\n\x1a\n'
-
+img_path = "inputs/waa.png"
 # IHDRとIENDを含む既存のPNGデータ
-with open("input.png", "rb") as f:
+with open(img_path, "rb") as f:
     png_data = f.read()
 
 # abcdチャンクのデータ
